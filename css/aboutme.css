@@ -1,0 +1,35 @@
+.container_aboutme {
+    background-color: #F6F6F6;
+    margin-top: 104.06px;
+
+}
+
+.aboutme {
+    max-width: 940px;
+    padding: 49.67px;
+    margin-top: 104.06px;
+    margin: 0 auto;
+    padding-top: 120.25px;
+    padding-bottom: 107px;
+}
+
+.aboutme__header {
+
+    font-family: "Gilroy-Bold";
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    line-height: 42.09px;
+}
+
+.abutme__text {
+    width: 485.34px; 
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center ;
+    margin-top: 17.69px;
+    line-height: 21.83px;
+
+}

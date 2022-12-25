@@ -1,0 +1,27 @@
+.home {
+    background-color: fff;
+}
+
+.home__namejob {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40.13px;
+    padding-bottom: 30.64px;
+}
+
+.home__photo {
+    display: block;
+}
+
+.home__name {
+    font-size: 47.34px;
+    line-height: 58.61px;
+}
+.home__job {
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+    line-height: 21.83px;
+    height: 21.83px;
+
+}

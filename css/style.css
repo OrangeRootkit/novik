@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Gilroy-Medium"),
+         url("/font/Gilroy-Medium.woff2") format("woff2"),
+         url("/font/Gilroy-Medium.woff") format("woff");
+  }
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Gilroy-Bold"),
+         url("/font/Gilroy-Bold.woff2") format("woff2"),
+         url("/font/Gilroy-Medium.woff") format("woff");
+  }
+
+
+  body {
+    font-family: "Gilroy-Medium";
+    color: black;
+  }
