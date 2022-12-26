@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Gilroy-Medium";
+  color: black;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+a {
+  
+}
