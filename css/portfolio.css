@@ -7,26 +7,21 @@
     margin: 0 auto;
     padding-top: 112.93px;
     padding-bottom: 96.07px;
+
 }
 
 .portfolio__header{
-    font-family: "Gilroy-Bold";
-    font-size: 34px;
     display: flex;
     justify-content: center;
-    line-height: 42.09px;
+
 }
 
 .portfolio__link {
     margin-top: 42.83px;
-    font-size: 18px;
-    line-height: 21.83px;
-    display: block;
-    display: flex;
-    justify-content: center;
     text-decoration: underline;
     color: black;
-
+    display: flex;
+    justify-content: center;
 }
 
 .portfolio__photo1 {

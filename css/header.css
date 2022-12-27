@@ -7,8 +7,6 @@
 }
 .navigation__link {
     display: block;
-    /* align-items: center; */
-    text-decoration: none;
     color: #828282;
     font-family: "Gilroy-Bold";
 }

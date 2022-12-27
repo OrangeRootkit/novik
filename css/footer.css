@@ -1,7 +1,4 @@
 .footer__header {
-    font-family: "Gilroy-Bold";
-    font-size: 34px;
-    line-height: 42.09px;
     display: flex;
     justify-content: center;
     margin-top: 114.24px;
@@ -14,7 +11,6 @@
     font-size: 18px;
     line-height: 21.83px;
     text-align: center;
-    
 }
 
 .footer__link{
@@ -22,9 +18,8 @@
     display: flex;
     justify-content: center;
     text-align: center;
-
-    
 }
+
 .footer__link__button {
     display: block;
     text-decoration: none;
@@ -37,7 +32,6 @@
     line-height: 42px;
     background-color: black;
     color: white;
- 
 }
 
 .footer__social {
@@ -50,7 +44,6 @@
 }
 
 .footer__capture {
-
     display: flex;
     justify-content: center;
     text-align: center;
@@ -64,6 +57,4 @@
     line-height: 16.98px;
     width: 243.01px;
     color: #828282;
-
-
 }
