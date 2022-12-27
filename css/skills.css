@@ -1,40 +1,21 @@
+.skills {
+  padding-top: 91px;
+  padding-bottom: 110px;
+}
+
+.skills__progs {
+  display: flex;
+  justify-content: space-between;
+}
+
 .skills__header {
-    display: flex;
-    justify-content: center;
-    margin-top: 91px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 69.1px;
 }
 
 .skills__text {
-    margin-top: 69.1px;
-    display: flex;
-    justify-content: center;
-    font-size: 18px;
-    line-height: 21.83px;
-
+  display: flex;
+  justify-content: center;
+  margin-bottom: 83.49px;
 }
-.skills__progs {
-    margin-top: 83.49px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 110.06px;
-
-}
-
-.skills__caption {
-    width: 70.29px;
-    color: #828282;
-    font-family: "Gilroy-Bold";
-    font-size: 14px;
-    line-height: 17.33px;
-    text-align: center;
-
-}
-
-.skills__stars {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-

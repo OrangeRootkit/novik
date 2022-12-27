@@ -1,0 +1,30 @@
+.item {
+  width: 166px;
+}
+
+.item__name {
+  color: #828282;
+  font-family: "Gilroy-Bold";
+  font-size: 14px;
+  line-height: 17.33px;
+  margin: 23px auto 41px;
+  text-align: center;
+  max-width: 79px;
+  min-height: 34px;
+}
+.item__icon {
+  display: block;
+  height: 88px;
+  margin: 0 auto;
+}
+
+.item__rate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item__star {
+  display: block;
+  width: 26px;
+  height: 26px;
+}

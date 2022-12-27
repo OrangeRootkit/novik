@@ -1,16 +1,38 @@
 .navigation {
-    height: 88px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #828282;
+  height: 88px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #828282;
 }
 .navigation__link {
-    display: block;
-    color: #828282;
-    font-family: "Gilroy-Bold";
+  display: block;
+  color: #828282;
+  font-family: "Gilroy-Bold";
 }
 
-.navigation__link:hover{
-    color:black
+.navigation__link:hover {
+  color: black;
+}
+
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
+}
+
+/* md-размер (<=991px) */
+@media (max-width: 991px) {
+  /* CSS для ширины от 768px до 991px */
+}
+
+/* sm-размер (<=768px) */
+@media (max-width: 767px) {
+  /* CSS для ширины от 576px до 767px */
+}
+
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+  .navigation {
+    display: none;
+  }
+  /* CSS для ширины до 575px (включительно) */
 }

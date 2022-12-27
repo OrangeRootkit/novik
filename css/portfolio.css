@@ -1,33 +1,54 @@
-.container__porfolio{
-    background-color: #F6F6F6;
+.container__porfolio {
+  background-color: #f6f6f6;
 }
 
 .potfolio {
-    max-width: 940px;
-    margin: 0 auto;
-    padding-top: 112.93px;
-    padding-bottom: 96.07px;
-
+  max-width: 940px;
+  margin: 0 auto;
+  padding-top: 112.93px;
+  padding-bottom: 96.07px;
 }
 
-.portfolio__header{
-    display: flex;
-    justify-content: center;
-
+.portfolio__header {
+  display: flex;
+  justify-content: center;
 }
 
 .portfolio__link {
-    margin-top: 42.83px;
-    text-decoration: underline;
-    color: black;
-    display: flex;
-    justify-content: center;
+  margin-top: 42.83px;
+  text-decoration: underline;
+  color: black;
+  display: flex;
+  justify-content: center;
 }
 
 .portfolio__photo1 {
-    margin-top: 47px;
+  margin-top: 47px;
+  max-width: 100%;
+  display: block;
 }
 
 .portfolio__photo2 {
-    margin-top: 99.08px;
+  margin-top: 99.08px;
+  max-width: 100%;
+  display: block;
+}
+
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
+}
+
+/* md-размер (<=991px) */
+@media (max-width: 991px) {
+  /* CSS для ширины от 768px до 991px */
+}
+
+/* sm-размер (<=768px) */
+@media (max-width: 767px) {
+  /* CSS для ширины от 576px до 767px */
+}
+
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) */
 }

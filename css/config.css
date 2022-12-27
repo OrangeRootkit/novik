@@ -15,7 +15,7 @@ body {
   line-height: 22px;
 }
 
-.section_header  {
+.section_header {
   font-family: "Gilroy-Bold";
   font-size: 34px;
   line-height: 42.09px;
@@ -23,4 +23,26 @@ body {
 
 a {
   text-decoration: none;
+}
+
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
+}
+
+/* md-размер (<=991px) */
+@media (max-width: 991px) {
+  /* CSS для ширины от 768px до 991px */
+  .container {
+    padding: 10px;
+  }
+}
+
+/* sm-размер (<=768px) */
+@media (max-width: 767px) {
+  /* CSS для ширины от 576px до 767px */
+}
+
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) */
 }
