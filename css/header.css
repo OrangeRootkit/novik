@@ -15,7 +15,8 @@
   color: black;
 }
 
-#burger, [for=burger]{
+#burger,
+[for="burger"] {
   display: none;
 }
 
@@ -35,11 +36,22 @@
 
 /* xs-размер (<=575px) */
 @media (max-width: 575px) {
+  nav {
+    display: none;
+  }
   .navigation {
     display: none;
   }
-  [for=burger]{
+
+  [for="burger"] {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 68px;
+  }
+  #burger:checked + label + nav {
     display: block;
   }
+
   /* CSS для ширины до 575px (включительно) */
 }

@@ -47,7 +47,6 @@ a {
   /* CSS для ширины до 575px (включительно) */
   .container {
     max-width: none;
-    padding: 26px;
-  }/* CSS для ширины до 575px (включительно) */
+    padding: 0px 26px 0px 26px;
+  } /* CSS для ширины до 575px (включительно) */
 }
-
