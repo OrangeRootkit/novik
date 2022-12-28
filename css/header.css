@@ -15,6 +15,10 @@
   color: black;
 }
 
+#burger, [for=burger]{
+  display: none;
+}
+
 @media (max-width: 1199px) {
   /* CSS для ширины от 992px до 1199px */
 }
@@ -33,6 +37,9 @@
 @media (max-width: 575px) {
   .navigation {
     display: none;
+  }
+  [for=burger]{
+    display: block;
   }
   /* CSS для ширины до 575px (включительно) */
 }

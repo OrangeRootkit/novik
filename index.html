@@ -11,6 +11,8 @@
 <body>
     <header id="homeid">
         <div class="container">
+            <input type="checkbox" id="burger">
+            <label for="burger"><img src="./image/burger.svg" alt="burger"></label>
             <nav class="navigation">
                 <a class="navigation__link" href="#homeid">Home</a>
                 <a class="navigation__link" href="#aboutmeid">About me</a>
@@ -28,7 +30,7 @@
                     <p class="home__job">UX | UI designer <br> 24 years old, Minsk</p>
                 </div>
                 <picture>
-                    <source srcset="./image/novikmobile.jpg" media="(max-width:600px)"/>
+                    <source class="home__mobile" srcset="./image/novikmobile.jpg 1x, ./image/novikmobile2x.jpg 2x" media="(max-width:574px)"/>
                     <img class="home__photo" srcset="./image/novik1x.jpg 1x, ./image/novik2x.jpg 2x" alt="novik">
                 </picture>
             </div>

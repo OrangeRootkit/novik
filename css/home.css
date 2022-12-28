@@ -15,3 +15,38 @@
     font-size: 47.34px;
     line-height: 58.61px;
 }
+
+.home__mobile {
+    display: block;
+    min-width: 100vw; 
+}
+
+@media (max-width: 1199px) {
+    /* CSS для ширины от 992px до 1199px */
+  }
+  
+  /* md-размер (<=991px) */
+  @media (max-width: 991px) {
+    /* CSS для ширины от 768px до 991px */
+  }
+  
+  /* sm-размер (<=768px) */
+  @media (max-width: 767px) {
+    /* CSS для ширины от 576px до 767px */
+  }
+  
+  /* xs-размер (<=575px) */
+  @media (max-width: 575px) {
+    .navigation {
+      display: none;
+    }
+    .home__namejob {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 23px;
+        padding-bottom: 37px;
+
+    }
+    /* CSS для ширины до 575px (включительно) */
+  }
+  

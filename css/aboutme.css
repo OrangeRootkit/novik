@@ -3,7 +3,7 @@
 }
 
 .container_aboutme {
-    /* max-width: 940px; */
+    max-width: 940px; 
     margin: 0 auto;
     margin-top: 104.06px;
     padding-top: 120.25px;
@@ -29,3 +29,47 @@
     text-align: center ;
     margin-bottom: 44px;
 }
+
+@media (max-width: 1199px) {
+    /* CSS для ширины от 992px до 1199px */
+  }
+  
+  /* md-размер (<=991px) */
+  @media (max-width: 991px) {
+    /* CSS для ширины от 768px до 991px */
+  }
+  
+  /* sm-размер (<=768px) */
+  @media (max-width: 767px) {
+    /* CSS для ширины от 576px до 767px */
+  }
+  
+  /* xs-размер (<=575px) */
+  @media (max-width: 575px) {
+    .continer_grey {
+        background-color: #F6F6F6;
+    }
+    
+    .container_aboutme {
+        max-width: 940px; 
+        margin: 0 auto;
+        margin-top: 104.06px;
+        padding-top: 120.25px;
+   
+    }
+    
+    .aboutme {
+        padding-bottom: 63px;
+
+    }
+
+    }
+    
+    .abutme__text {
+        max-width: 320px;
+        overflow-wrap: break-word;
+        text-align: center ;
+        margin-bottom: 44px;
+    }
+    /* CSS для ширины до 575px (включительно) */
+  

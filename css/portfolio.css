@@ -40,7 +40,10 @@
 
 /* md-размер (<=991px) */
 @media (max-width: 991px) {
-  /* CSS для ширины от 768px до 991px */
+  .potfolio {
+    max-width: 940px;
+   
+  }
 }
 
 /* sm-размер (<=768px) */
@@ -51,4 +54,10 @@
 /* xs-размер (<=575px) */
 @media (max-width: 575px) {
   /* CSS для ширины до 575px (включительно) */
+  .container__porfolio {
+    background-color: #f6f6f6;
+    max-width: none;
+    padding: 26px;
+  }
+
 }
