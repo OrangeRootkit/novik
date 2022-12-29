@@ -36,7 +36,7 @@
 
 .footer__social {
   margin: 0 auto;
-  padding-top: 85.78px;
+  margin-top: 85.78px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,8 +47,8 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  padding-top: 45.98px;
-  padding-bottom: 123.19px;
+  margin-top: 46px;
+  margin-bottom: 123px;
 }
 
 .footer__capture__text {
@@ -58,22 +58,16 @@
   color: #828282;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1024px) {
   /* CSS для ширины от 992px до 1199px */
 }
 
-/* md-размер (<=991px) */
-@media (max-width: 991px) {
+@media (max-width: 976px) {
   /* CSS для ширины от 768px до 991px */
 }
-
 /* sm-размер (<=768px) */
-@media (max-width: 767px) {
-  /* CSS для ширины от 576px до 767px */
-}
-
-/* xs-размер (<=575px) */
-@media (max-width: 575px) {
+@media (max-width: 479px) {
+  /* CSS для ширины до 575px (включительно) */
   .footer__header {
     margin-top: 82px;
   }
@@ -84,7 +78,19 @@
   }
   .footer__link {
     margin-top: 0px;
+  }
+
+  .footer__social {
+    max-width: 100%;
+  }
+
+  .footer__social {
+    width: 315px;
+    margin-top: 48px;
+    margin-bottom: 90px;
+  }
 }
 
-
-  /* CSS для ширины до 575px (включительно) */
+@media (max-width: 375px) {
+}
+/* CSS для ширины до 575px (включительно) */

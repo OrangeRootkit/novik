@@ -34,30 +34,35 @@
   display: block;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1024px) {
   /* CSS для ширины от 992px до 1199px */
-}
-
-/* md-размер (<=991px) */
-@media (max-width: 991px) {
   .potfolio {
-    max-width: 940px;
-   
+    max-width: 90%;
   }
 }
 
+@media (max-width: 976px) {
+  /* CSS для ширины от 768px до 991px */
+}
 /* sm-размер (<=768px) */
-@media (max-width: 767px) {
-  /* CSS для ширины от 576px до 767px */
-}
-
-/* xs-размер (<=575px) */
-@media (max-width: 575px) {
+@media (max-width: 479px) {
   /* CSS для ширины до 575px (включительно) */
-  .container__porfolio {
-    background-color: #f6f6f6;
-    max-width: none;
-    padding: 26px;
+  .potfolio {
+    padding: 81px 30px;
   }
-
+  .portfolio__photo1 {
+    margin-top: 65px;
+  }
+  .portfolio__link {
+    margin-top: 33px;
+  }
+  .portfolio__photo2 {
+    margin-top: 78px;
+  }
+}
+@media (max-width: 375px) {
+  .portfolio__link {
+    margin-top: 33px;
+    text-align: center;
+  }
 }

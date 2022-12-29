@@ -1,73 +1,88 @@
 .continer_grey {
-    background-color: #F6F6F6;
+  background-color: #f6f6f6;
 }
 
 .container_aboutme {
-    max-width: 940px; 
-    margin: 0 auto;
-    margin-top: 104.06px;
-    padding-top: 120.25px;
-    display: flex;
-    justify-content: center;
+  max-width: 940px;
+  margin: 0 auto;
+  margin-top: 104.06px;
+  padding-top: 120.25px;
+  display: flex;
+  justify-content: center;
 }
 
 .aboutme {
-    padding-bottom: 63px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  padding-bottom: 63px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .aboutme__header {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 18px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
 }
 
 .abutme__text {
-    width: 485.34px; 
-    text-align: center ;
-    margin-bottom: 44px;
+  width: 485.34px;
+  text-align: center;
+  margin-bottom: 44px;
 }
 
 @media (max-width: 1199px) {
-    /* CSS для ширины от 992px до 1199px */
-  }
-  
-  /* md-размер (<=991px) */
-  @media (max-width: 991px) {
-    /* CSS для ширины от 768px до 991px */
-  }
-  
-  /* sm-размер (<=768px) */
-  @media (max-width: 767px) {
-    /* CSS для ширины от 576px до 767px */
-  }
-  
-  /* xs-размер (<=575px) */
-  @media (max-width: 575px) {
-    .continer_grey {
-        background-color: #F6F6F6;
-    }
-    
-    .container_aboutme {
-        max-width: 940px; 
-        margin: 0 auto;
-        margin-top: 104.06px;
-        padding-top: 120.25px;
-   
-    }
-    
-    .aboutme {
-        padding-bottom: 63px;
+  /* CSS для ширины от 992px до 1199px */
+}
 
-    }
+/* md-размер (<=991px) */
+@media (max-width: 991px) {
+  /* CSS для ширины от 768px до 991px */
+}
 
-    
-    .abutme__text {
-        max-width: 316px;
-        text-align: center;
-        margin-bottom: 44px;
-    }
-    /* CSS для ширины до 575px (включительно) */
+/* sm-размер (<=768px) */
+@media (max-width: 767px) {
+  /* CSS для ширины от 576px до 767px */
+}
+
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+  .continer_grey {
+    background-color: #f6f6f6;
+  }
+
+  .container_aboutme {
+    max-width: 940px;
+    margin: 0 auto;
+    margin-top: 104.06px;
+    padding-top: 120.25px;
+  }
+
+  .aboutme {
+    padding-bottom: 32px;
+  }
+
+  .abutme__text {
+    max-width: 316px;
+    text-align: center;
+    margin-bottom: 44px;
+  }
+  /* CSS для ширины до 575px (включительно) */
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 976px) {
+}
+
+@media (max-width: 479px) {
+  .aboutme {
+    padding-bottom: 32px;
+  }
+
+  .abutme__text {
+    max-width: 316px;
+    text-align: center;
+    margin-bottom: 44px;
+  }
 }

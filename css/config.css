@@ -25,28 +25,26 @@ a {
   text-decoration: none;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1024px) {
   /* CSS для ширины от 992px до 1199px */
-}
-
-/* md-размер (<=991px) */
-@media (max-width: 991px) {
-  /* CSS для ширины от 768px до 991px */
   .container {
-    padding: 10px;
+    max-width: 90%;
   }
 }
 
-/* sm-размер (<=768px) */
-@media (max-width: 767px) {
-  /* CSS для ширины от 576px до 767px */
+/* md-размер (<=991px) */
+@media (max-width: 976px) {
+  /* CSS для ширины от 768px до 991px */
 }
 
+/* sm-размер (<=768px) */
+
 /* xs-размер (<=575px) */
-@media (max-width: 575px) {
-  /* CSS для ширины до 575px (включительно) */
-  .container {
-    max-width: none;
-    padding: 0px 26px 0px 26px;
-  } /* CSS для ширины до 575px (включительно) */
+@media (max-width: 479px) {
+  /* CSS для ширины от 576px до 767px */
+  .skills__progs {
+    gap: 80px 0;
+    flex-direction: column;
+    align-items: center;
+  }
 }
