@@ -63,13 +63,11 @@
 
     }
 
-    }
     
     .abutme__text {
-        max-width: 320px;
-        overflow-wrap: break-word;
-        text-align: center ;
+        max-width: 316px;
+        text-align: center;
         margin-bottom: 44px;
     }
     /* CSS для ширины до 575px (включительно) */
-  
+}

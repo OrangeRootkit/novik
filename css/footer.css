@@ -74,28 +74,17 @@
 
 /* xs-размер (<=575px) */
 @media (max-width: 575px) {
-  
-  
-  .footer__text {
-    width: 50%;;
+  .footer__header {
+    margin-top: 82px;
   }
 
   .footer__link__button {
-
-    max-width: 50%;
-
+    margin-top: 40px;
+    width: 316px;
   }
-  
-  .footer__social {
-    max-width: 50%;
-  }
-  
-  }
- 
-  .footer__capture__text {
-
-    max-width: 50%;
-  }
+  .footer__link {
+    margin-top: 0px;
+}
 
 
   /* CSS для ширины до 575px (включительно) */

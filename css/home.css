@@ -13,8 +13,10 @@
 }
 
 .home__name {
+  font-family: "Gilroy-Bold"; 
   font-size: 47.34px;
   line-height: 58.61px;
+  width: 123.51px;
 }
 
 .home__mobile {
