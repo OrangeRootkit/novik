@@ -15,25 +15,53 @@
   color: black;
 }
 
-#burger,
-[for="burger"] {
+.burger {
   display: none;
-  z-index: 100;
-  position: fixed;
+}
+
+.cross {
+  display: none;
 }
 
 .burger_menu {
-  display: none;
   width: 100%;
   height: 100%;
   position: fixed;
-  transition: 3s;
+  right: -100%;
+  transition: 1s;
+  flex-direction: column;
+  background-color: white;
+  padding: 66px 26px 0;
+  display: flex;
 }
 
-.burger_link {
-  font-size: 34px;
+
+
+.burger__link {
   display: block;
+  color: #828282;
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  margin: 66px 0 0 0;
+  max-width: 50%;
 }
+
+
+.burger_menu.active {
+  right:0;
+  z-index:1;
+}
+
+.burger.active {
+  display: hidden;
+}
+
+.cross.active {
+  display: block;
+  position: fixed;
+  z-index: 100;
+}
+
 
 @media (max-width: 1199px) {
   /* CSS для ширины от 992px до 1199px */
@@ -51,22 +79,29 @@
 
 /* xs-размер (<=575px) */
 @media (max-width: 479px) {
-  nav {
+  /* nav {
     display: none;
   }
+  */
   .navigation {
     display: none;
+  } 
+
+  .burger {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 26px;
+    top: 50px;
   }
 
-  [for="burger"] {
-    display: block;
+  .cross {
+    display: none;
+    cursor: pointer;
     position: absolute;
     right: 30px;
-    top: 68px;
-  }
-  #burger:checked + label + div {
-    display: block;
+    top: 49px;
   }
 
-  /* CSS для ширины до 575px (включительно) */
+  
 }

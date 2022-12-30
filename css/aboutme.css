@@ -2,20 +2,24 @@
   background-color: #f6f6f6;
 }
 
-.container_aboutme {
+/* .container_aboutme {
   max-width: 940px;
   margin: 0 auto;
   margin-top: 104.06px;
   padding-top: 120.25px;
   display: flex;
   justify-content: center;
-}
+} */
 
 .aboutme {
   padding-bottom: 63px;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  max-width: 940px;
+   margin-top: 104.06px;
+  padding-top: 120.25px;
+  margin: 0 auto;
 }
 
 .aboutme__header {
@@ -27,6 +31,7 @@
 .abutme__text {
   width: 485.34px;
   text-align: center;
+  margin: 0 auto;
   margin-bottom: 44px;
 }
 

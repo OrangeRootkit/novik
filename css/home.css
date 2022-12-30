@@ -1,3 +1,7 @@
+.home {
+  padding-bottom: 104px;
+}
+
 .home__namejob {
   display: flex;
   justify-content: space-between;

@@ -10,18 +10,17 @@
   <body>
     <header id="homeid">
       <div class="container">
-        <input type="checkbox" id="burger" />
-        <label for="burger"
-          ><img src="./image/burger.svg" alt="burger"
-        /></label>
-        <!--menu for burger-->
-        <div class="burger_menu">
-          <a class="navigation__link" href="#homeid">Home</a>
-          <a class="navigation__link" href="#aboutmeid">About me</a>
-          <a class="navigation__link" href="#skillsid">Skills</a>
-          <a class="navigation__link" href="#portfolioid">Portfolio</a>
-          <a class="navigation__link" href="#contactsid">Contacts</a>
+        <img class="burger" src="./image/burger.svg" alt="burger" id="burger">
+        <img class="cross" src="./image/cross.svg" alt="cross" id="cross">
+        <div class="burger_menu" id="burger_menu">
+          <a class="burger__link" href="#homeid">Home</a>
+          <a class="burger__link" href="#aboutmeid">About me</a>
+          <a class="burger__link" href="#skillsid">Skills</a>
+          <a class="burger__link" href="#portfolioid" id="portfolio_link">Portfolio</a>
+          <a class="burger__link" href="#contactsid">Contacts</a>
         </div>
+        <div class="popup"></div>
+
         <nav class="navigation">
           <a class="navigation__link" href="#homeid">Home</a>
           <a class="navigation__link" href="#aboutmeid">About me</a>
@@ -60,7 +59,7 @@
         </div>
       </section>
 
-      <section class="continer_grey container_aboutme">
+      <section class="continer_grey">
         <div class="aboutme" id="aboutmeid">
           <h2 class="aboutme__header section_header">About me</h2>
           <p class="abutme__text">
@@ -78,9 +77,10 @@
       </section>
 
       <section class="container">
-        <h2 class="skills__header section_header" id="skillsid">Skills</h2>
-        <p class="skills__text">I work in such programs as</p>
-        <div class="skills__progs">
+        <div class="skills">
+          <h2 class="skills__header section_header" id="skillsid">Skills</h2>
+          <p class="skills__text">I work in such programs as</p>
+          <div class="skills__progs">
           <!--item-->
           <div class="skills__item item">
             <img class="item__icon" src="./image/Ps_black.svg" alt="" />
@@ -126,6 +126,7 @@
               <img class="item__star" src="./image/greystar.svg" alt="" />
             </div>
           </div>
+         </div>
         </div>
       </section>
 
@@ -200,5 +201,6 @@
         </section>
       </footer>
     </main>
+    <script src="./script.js"></script>
   </body>
 </html>
