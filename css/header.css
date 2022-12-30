@@ -43,9 +43,12 @@
   font-family: "Gilroy-Bold";
   font-size: 34px;
   margin: 66px 0 0 0;
-  max-width: 50%;
+  width: 100%;
 }
 
+.burger__link:hover {
+  color: black;
+}
 
 .burger_menu.active {
   right:0;
