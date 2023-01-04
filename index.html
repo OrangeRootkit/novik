@@ -10,7 +10,7 @@
   <body>
     <header id="homeid">
       <div class="container">
-        <img class="burger" src="./image/burger.svg" alt="burger" id="burger">
+        <!-- <img class="burger" src="./image/burger.svg" alt="burger" id="burger">
         <img class="cross" src="./image/cross.svg" alt="cross" id="cross">
         <div class="burger_menu" id="burger_menu">
           <a class="burger__link" href="#homeid">Home</a>
@@ -18,8 +18,23 @@
           <a class="burger__link" href="#skillsid">Skills</a>
           <a class="burger__link" href="#portfolioid" id="portfolio_link">Portfolio</a>
           <a class="burger__link" href="#contactsid">Contacts</a>
+        </div> -->
+
+        <div>
+          <input class="burger__menu" id="burger__menu" type="checkbox" />
+          <label class="burger__button" for="burger__menu">
+            <span></span>
+          </label>
+          <ul class="burger__nav nav">
+            <li><a class="nav__link" href="#home">Home</a></li>
+            <li><a class="nav__link" href="#about-me">About me</a></li>
+            <li><a class="nav__link" href="#skills">Skills</a></li>
+            <li><a class="nav__link" href="#portfolio">Portfolio</a></li>
+            <li><a class="nav__link" href="#contacts">Contacts</a></li>
+          </ul>
         </div>
-        <div class="popup"></div>
+
+
 
         <nav class="navigation">
           <a class="navigation__link" href="#homeid">Home</a>
@@ -31,6 +46,8 @@
         </div>
       </div>
     </header>
+
+    <!-- part main -->
     <main>
       <section class="container">
         <div class="home">
@@ -47,7 +64,7 @@
           <picture>
             <source
               srcset="./image/novikmobile.jpg 1x, ./image/novikmobile2x.jpg 2x"
-              media="(max-width:479px)"
+              media="(max-width:765px)"
             />
             <img
               class="home__photo"
@@ -59,40 +76,44 @@
         </div>
       </section>
 
-      <section class="continer_grey">
-        <div class="aboutme" id="aboutmeid">
+      <section class="color_grey" id="aboutmeid">
+        <div class="container aboutme">
           <h2 class="aboutme__header section_header">About me</h2>
-          <p class="abutme__text">
+            <div class="aboutme__wholetext">
+             <p class="abutme__text">
             Hi, I'm Denis - UX/UI designer from Minsk.<br />
             I'm interested in design and everything connected with it.
-          </p>
-          <p class="abutme__text">
+             </p>
+              <p class="abutme__text">
             I'm studying at courses "Web and mobile design interfaces" in
             IT-Academy.
-          </p>
-          <p class="abutme__text">
+              </p>
+             <p class="abutme__text">
             Ready to implement excellent projects <br />with wonderful people.
-          </p>
+            </p>
+          </div>
         </div>
       </section>
 
-      <section class="container">
-        <div class="skills">
-          <h2 class="skills__header section_header" id="skillsid">Skills</h2>
-          <p class="skills__text">I work in such programs as</p>
-          <div class="skills__progs">
+      <!--section item-->
+      <section id="skillsid">
+        <div class="container">
+          <div class="skills">
+            <h2 class="skills__header section_header" >Skills</h2>
+            <p class="skills__text">I work in such programs as</p>
+            <div class="skills__progs">
           <!--item-->
-          <div class="skills__item item">
-            <img class="item__icon" src="./image/Ps_black.svg" alt="" />
-            <p class="item__name">Adobe Photoshop</p>
-            <div class="item__rate">
+           <div class="skills__item item">
+             <img class="item__icon" src="./image/Ps_black.svg" alt="" />
+             <p class="item__name">Adobe Photoshop</p>
+             <div class="item__rate">
               <img class="item__star" src="./image/blackstar.svg" alt="" />
               <img class="item__star" src="./image/blackstar.svg" alt="" />
               <img class="item__star" src="./image/blackstar.svg" alt="" />
               <img class="item__star" src="./image/blackstar.svg" alt="" />
               <img class="item__star" src="./image/greystar.svg" alt="" />
+             </div>
             </div>
-          </div>
           <div class="skills__item item">
             <img class="item__icon" src="./image/Ai_black.svg" alt="" />
             <p class="item__name">Adobe Illustrator</p>
@@ -128,44 +149,53 @@
           </div>
          </div>
         </div>
+        </div>
       </section>
 
-      <section class="container__porfolio">
-        <div class="potfolio" id="portfolioid">
+      <section class="color__porfolio" id="portfolioid">
+        <div class="container potfolio">
           <h2 class="portfolio__header section_header">Portfolio</h2>
-          <picture>
-            <img
+          <div class="potfolio__wrapper">
+           <picture>
+             <img
               class="portfolio__photo1"
               src="./image/woman1x.jpg"
               srcset="./image/woman1x.jpg 1x, ./image/woman2x.jpg 2x"
               alt="woman"
-            />
-          </picture>
-          <a class="portfolio__link" href="">Online fashion store - Homepage</a>
-          <picture>
-            <img
-              class="portfolio__photo2"
+             />
+            </picture>
+           <a class="portfolio__link" href="#">Online fashion store - Homepage</a>
+          </div>
+          <div class="potfolio__wrapper2">
+           <picture>
+              <img
+              class="portfolio__photo1"
               src="./image/reebok1x.jpg"
               srcset="./image/reebok1x.jpg 1x, ./image/reebok2x.jpg 2x"
               alt="reebok"
-            />
-          </picture>
-          <a class="portfolio__link" href="">Reebok Store - Concept</a>
-          <picture>
-            <img
-              class="portfolio__photo2"
+              />
+           </picture>
+           <a class="portfolio__link" href="">Reebok Store - Concept</a>
+          </div>
+          <div>
+            <picture>
+              <img
+              class="portfolio__photo1"
               src="./image/braun1x.jpg"
               srcset="./image/braun1x.jpg 1x, ./image/braun2x.jpg 2x"
               alt="braun"
-            />
-          </picture>
-          <a class="portfolio__link" href="">Braun Landing Page - Concept</a>
+              />
+            </picture>
+            <a class="portfolio__link" href="">Braun Landing Page - Concept</a>
+          </div>
         </div>
       </section>
+      </main>
 
-      <footer>
-        <section class="container">
-          <h3 class="footer__header section_header" id="contactsid">
+      <!-- part footer -->
+      <footer id="contactsid">
+        <div class="container footer__wrapper">
+          <h3 class="footer__header section_header">
             Contacts
           </h3>
           <div class="footer__textlink">
@@ -198,9 +228,9 @@
               LinkedIn, Instagram, Behance, Dribble
             </p>
           </div>
-        </section>
+        </div>
       </footer>
-    </main>
+    
     <script src="./script.js"></script>
   </body>
 </html>

@@ -32,13 +32,7 @@
   object-fit: cover;
 }
 
-@media (max-width: 1024px) {
-}
-
-@media (max-width: 976px) {
-}
-
-@media (max-width: 479px) {
+@media (max-width: 765px) {
   .home__namejob {
     flex-direction: column;
     align-items: flex-start;
