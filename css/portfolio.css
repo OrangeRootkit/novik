@@ -1,17 +1,22 @@
-.container__porfolio {
+.color__porfolio {
   background-color: #f6f6f6;
 }
 
 .potfolio {
-  max-width: 940px;
-  margin: 0 auto;
-  padding-top: 112.93px;
-  padding-bottom: 96.07px;
+  padding: 112.93px 0 96.07px;
 }
 
 .portfolio__header {
   display: flex;
   justify-content: center;
+}
+
+.potfolio__wrapper {
+  padding: 47px 0 99px;
+}
+
+.potfolio__wrapper2 {
+  padding: 0 0 99px;
 }
 
 .portfolio__link {
@@ -23,13 +28,6 @@
 }
 
 .portfolio__photo1 {
-  margin-top: 47px;
-  max-width: 100%;
-  display: block;
-}
-
-.portfolio__photo2 {
-  margin-top: 99.08px;
   max-width: 100%;
   display: block;
 }

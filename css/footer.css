@@ -1,7 +1,10 @@
+.footer__wrapper {
+  padding: 114px 0 123px;
+}
+
 .footer__header {
   display: flex;
   justify-content: center;
-  margin-top: 114.24px;
 }
 
 .footer__text {
@@ -25,13 +28,18 @@
   text-decoration: none;
   border: 1px solid black;
   width: 180.5px;
-  height: 42px;
   border-radius: 20px;
   font-family: "Gilroy-Bold";
   font-size: 18px;
   line-height: 42px;
-  background-color: black;
-  color: white;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer__link__button:hover {
+  transition: 3s;
+  background-color: #fff;
+  color: #000;
 }
 
 .footer__social {
@@ -48,7 +56,6 @@
   justify-content: center;
   text-align: center;
   margin-top: 46px;
-  margin-bottom: 123px;
 }
 
 .footer__capture__text {
@@ -66,7 +73,7 @@
   /* CSS для ширины от 768px до 991px */
 }
 /* sm-размер (<=768px) */
-@media (max-width: 479px) {
+@media (max-width: 765px) {
   /* CSS для ширины до 575px (включительно) */
   .footer__header {
     margin-top: 82px;
