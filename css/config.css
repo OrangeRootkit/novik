@@ -15,6 +15,10 @@ body {
   line-height: 22px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .section_header {
   font-family: "Gilroy-Bold";
   font-size: 34px;

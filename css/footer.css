@@ -75,16 +75,20 @@
 /* sm-размер (<=768px) */
 @media (max-width: 765px) {
   /* CSS для ширины до 575px (включительно) */
-  .footer__header {
+  /* .footer__header {
     margin-top: 82px;
+  } */
+
+ 
+  .footer__wrapper {
+    padding: 82px 0 90px;
   }
 
   .footer__link__button {
-    margin-top: 40px;
     width: 316px;
   }
   .footer__link {
-    margin-top: 0px;
+    margin-top: 40px;
   }
 
   .footer__social {
