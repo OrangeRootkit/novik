@@ -3,11 +3,11 @@
 }
 
 .aboutme {
-  padding:120.25px 0 107px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   margin-top: 104.06px;
+  padding: 120.25px 0 107px;
   margin: 0 auto;
 }
 
