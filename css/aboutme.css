@@ -1,14 +1,6 @@
 .color_grey {
   background-color: #f6f6f6;
-}
-
-.aboutme {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 104.06px;
   padding: 120.25px 0 107px;
-  margin: 0 auto;
 }
 
 .aboutme__header {
@@ -26,17 +18,15 @@
 }
 
 @media (max-width: 765px) {
-  .aboutme {
-    padding-top: 81px;
-  }
+  
 }
 
 @media (max-width: 575px) {
-  .aboutme {
-    padding-top: 81px;
-    max-width: 80%;
-    margin: 0 auto;
+  .color_grey {
+    background-color: #f6f6f6;
+    padding: 81px 0 76px;
   }
+  
 
   .aboutme__wholetext {
     max-width: 90%;

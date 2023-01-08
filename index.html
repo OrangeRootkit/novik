@@ -10,31 +10,21 @@
   <body>
     <header id="homeid">
       <div class="container">
-        <!-- <img class="burger" src="./image/burger.svg" alt="burger" id="burger">
-        <img class="cross" src="./image/cross.svg" alt="cross" id="cross">
-        <div class="burger_menu" id="burger_menu">
-          <a class="burger__link" href="#homeid">Home</a>
-          <a class="burger__link" href="#aboutmeid">About me</a>
-          <a class="burger__link" href="#skillsid">Skills</a>
-          <a class="burger__link" href="#portfolioid" id="portfolio_link">Portfolio</a>
-          <a class="burger__link" href="#contactsid">Contacts</a>
-        </div> -->
 
-        <div>
-          <input class="burger__menu" id="burger__menu" type="checkbox" />
-          <label class="burger__button" for="burger__menu">
-            <span></span>
-          </label>
-          <ul class="burger__nav nav">
+        <!-- бургер через селекторы -->
+        <nav class="burger__wrapper">
+          <input class="burger__menu" type="checkbox" />
+          <span class="burger__centerline"></span>
+          <span class="burger__upperline"></span>
+          <span class="burger__bottomline"></span>
+          <ul class="burger__nav ">
             <li><a class="nav__link" href="#homeid">Home</a></li>
             <li><a class="nav__link" href="#aboutmeid">About me</a></li>
             <li><a class="nav__link" href="#skillsid">Skills</a></li>
             <li><a class="nav__link" href="#portfolioid">Portfolio</a></li>
             <li><a class="nav__link" href="#contactsid">Contacts</a></li>
           </ul>
-        </div>
-
-
+        </nav>
 
         <nav class="navigation">
           <a class="navigation__link" href="#homeid">Home</a>
@@ -49,8 +39,9 @@
 
     <!-- part main -->
     <main>
-      <section class="container">
-        <div class="home">
+      <section>
+        <div class="container">
+          <div class="home">
           <div class="home__namejob">
             <h1 class="home__name">
               Denis <br />
@@ -74,24 +65,29 @@
             />
           </picture>
         </div>
+        </div>
+        </div>
       </section>
 
       <section class="color_grey" id="aboutmeid">
-        <div class="container aboutme">
+        <div class="container">
+          <div class="aboutme">
           <h2 class="aboutme__header section_header">About me</h2>
             <div class="aboutme__wholetext">
              <p class="abutme__text">
-            Hi, I'm Denis - UX/UI designer from Minsk.<br />
-            I'm interested in design and everything connected with it.
+              Hi, I'm Denis - UX/UI designer from Minsk.<br>
+              I'm&nbsp;interested&nbsp;in&nbsp;design and everything connected
+              with it.
              </p>
               <p class="abutme__text">
-            I'm studying at courses "Web and mobile design interfaces" in
-            IT-Academy.
+                I'm&nbsp;studying&nbsp;at&nbsp;courses&nbsp;"Web&nbsp;and mobile
+                design interfaces" in&nbsp;IT-&nbsp;Academy.
               </p>
              <p class="abutme__text">
             Ready to implement excellent projects <br />with wonderful people.
             </p>
           </div>
+        </div>
         </div>
       </section>
 
@@ -153,7 +149,7 @@
       </section>
 
       <section class="color__porfolio" id="portfolioid">
-        <div class="container potfolio">
+        <div class="container">
           <h2 class="portfolio__header section_header">Portfolio</h2>
           <div class="potfolio__wrapper">
            <picture>
@@ -166,7 +162,7 @@
             </picture>
            <a class="portfolio__link" href="#">Online fashion store - Homepage</a>
           </div>
-          <div class="potfolio__wrapper2">
+          <div class="potfolio__wrapper">
            <picture>
               <img
               class="portfolio__photo1"
@@ -194,7 +190,8 @@
 
       <!-- part footer -->
       <footer id="contactsid">
-        <div class="container footer__wrapper">
+        <div class="container">
+          <div class="footer__wrapper">
           <h3 class="footer__header section_header">
             Contacts
           </h3>
@@ -228,6 +225,7 @@
               LinkedIn, Instagram, Behance, Dribble
             </p>
           </div>
+        </div>
         </div>
       </footer>
     

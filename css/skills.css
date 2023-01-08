@@ -1,6 +1,5 @@
 .skills {
-  padding-top: 91px;
-  padding-bottom: 110px;
+  margin: 91px 0 110px;
 }
 
 .skills__progs {
@@ -9,27 +8,23 @@
 }
 
 .skills__header {
-  display: flex;
-  justify-content: center;
+text-align: center;
   margin-bottom: 69.1px;
 }
 
 .skills__text {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   margin-bottom: 83.49px;
 }
 
-@media (max-width: 1024px) {
-  /* CSS для ширины от 992px до 1199px */
-  .skills {
-    padding-top: 83px;
-  }
-}
 
 /* md-размер (<=991px) */
 @media (max-width: 976px) {
   /* CSS для ширины от 768px до 991px */
+  .skills {
+    margin: 83px 0 99px;
+  }
+
   .skills__text {
     margin: 50px 0 70px;
   }

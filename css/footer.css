@@ -1,10 +1,9 @@
 .footer__wrapper {
-  padding: 114px 0 123px;
+  margin: 114px 0 123px;
 }
 
 .footer__header {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .footer__text {
@@ -28,7 +27,7 @@
   text-decoration: none;
   border: 1px solid black;
   width: 180.5px;
-  border-radius: 20px;
+  border-radius: 25px;
   font-family: "Gilroy-Bold";
   font-size: 18px;
   line-height: 42px;
@@ -37,7 +36,7 @@
 }
 
 .footer__link__button:hover {
-  transition: 3s;
+  transition: 0.5s;
   background-color: #fff;
   color: #000;
 }
@@ -49,6 +48,11 @@
   justify-content: space-between;
   align-items: center;
   width: 342.18px;
+}
+
+.footer__social a:hover{
+  transform: scale(110%);
+  transition: 0.3s;
 }
 
 .footer__capture {
@@ -65,23 +69,10 @@
   color: #828282;
 }
 
-@media (max-width: 1024px) {
-  /* CSS для ширины от 992px до 1199px */
-}
-
-@media (max-width: 976px) {
-  /* CSS для ширины от 768px до 991px */
-}
-/* sm-размер (<=768px) */
 @media (max-width: 765px) {
-  /* CSS для ширины до 575px (включительно) */
-  /* .footer__header {
-    margin-top: 82px;
-  } */
-
- 
+  
   .footer__wrapper {
-    padding: 82px 0 90px;
+    margin: 82px 0 90px;
   }
 
   .footer__link__button {
@@ -98,10 +89,6 @@
   .footer__social {
     width: 315px;
     margin-top: 48px;
-    margin-bottom: 90px;
+    margin-bottom: 49px;
   }
 }
-
-@media (max-width: 375px) {
-}
-/* CSS для ширины до 575px (включительно) */

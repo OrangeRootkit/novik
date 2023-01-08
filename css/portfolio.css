@@ -1,22 +1,15 @@
 .color__porfolio {
   background-color: #f6f6f6;
-}
-
-.potfolio {
   padding: 112.93px 0 96.07px;
 }
 
+
 .portfolio__header {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .potfolio__wrapper {
-  padding: 47px 0 99px;
-}
-
-.potfolio__wrapper2 {
-  padding: 0 0 99px;
+  margin: 47px 0 99px;
 }
 
 .portfolio__link {
@@ -25,6 +18,11 @@
   color: black;
   display: flex;
   justify-content: center;
+}
+
+.portfolio__link:hover {
+transform: scale(110%);
+transition: 0.3s;
 }
 
 .portfolio__photo1 {
@@ -45,6 +43,12 @@
 /* sm-размер (<=768px) */
 @media (max-width: 479px) {
   /* CSS для ширины до 575px (включительно) */
+  .color__porfolio {
+    padding: 81px 0 80px;
+  }
+  
+  
+  
   .potfolio {
     padding: 81px 30px;
   }
