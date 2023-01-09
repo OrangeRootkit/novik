@@ -1,5 +1,5 @@
 .footer__wrapper {
-  margin: 114px 0 123px;
+  padding: 114px 0 123px;
 }
 
 .footer__header {
@@ -33,10 +33,11 @@
   line-height: 42px;
   background-color: #000;
   color: #fff;
+  transition: 0.7s;
 }
 
 .footer__link__button:hover {
-  transition: 0.5s;
+  transition: 0.7s;
   background-color: #fff;
   color: #000;
 }
@@ -50,7 +51,11 @@
   width: 342.18px;
 }
 
-.footer__social a:hover{
+.footer__social a {
+  transition: 0.3s;
+}
+
+.footer__social a:hover {
   transform: scale(110%);
   transition: 0.3s;
 }
@@ -70,9 +75,8 @@
 }
 
 @media (max-width: 765px) {
-  
   .footer__wrapper {
-    margin: 82px 0 90px;
+    padding: 82px 0 90px;
   }
 
   .footer__link__button {

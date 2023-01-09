@@ -3,7 +3,6 @@
   padding: 112.93px 0 96.07px;
 }
 
-
 .portfolio__header {
   text-align: center;
 }
@@ -18,11 +17,12 @@
   color: black;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .portfolio__link:hover {
-transform: scale(110%);
-transition: 0.3s;
+  transform: scale(110%);
+  transition: 0.3s;
 }
 
 .portfolio__photo1 {
@@ -31,24 +31,16 @@ transition: 0.3s;
 }
 
 @media (max-width: 1024px) {
-  /* CSS для ширины от 992px до 1199px */
   .potfolio {
     max-width: 90%;
   }
 }
 
-@media (max-width: 976px) {
-  /* CSS для ширины от 768px до 991px */
-}
-/* sm-размер (<=768px) */
 @media (max-width: 479px) {
-  /* CSS для ширины до 575px (включительно) */
   .color__porfolio {
     padding: 81px 0 80px;
   }
-  
-  
-  
+
   .potfolio {
     padding: 81px 30px;
   }

@@ -10,14 +10,13 @@
   <body>
     <header id="homeid">
       <div class="container">
-
         <!-- бургер через селекторы -->
         <nav class="burger__wrapper">
           <input class="burger__menu" type="checkbox" />
           <span class="burger__centerline"></span>
           <span class="burger__upperline"></span>
           <span class="burger__bottomline"></span>
-          <ul class="burger__nav ">
+          <ul class="burger__nav">
             <li><a class="nav__link" href="#homeid">Home</a></li>
             <li><a class="nav__link" href="#aboutmeid">About me</a></li>
             <li><a class="nav__link" href="#skillsid">Skills</a></li>
@@ -33,15 +32,13 @@
           <a class="navigation__link" href="#portfolioid">Portfolio</a>
           <a class="navigation__link" href="#contactsid">Contacts</a>
         </nav>
-        </div>
       </div>
     </header>
 
     <!-- part main -->
     <main>
-      <section>
+      <section class="home">
         <div class="container">
-          <div class="home">
           <div class="home__namejob">
             <h1 class="home__name">
               Denis <br />
@@ -65,86 +62,88 @@
             />
           </picture>
         </div>
-        </div>
-        </div>
       </section>
 
       <section class="color_grey" id="aboutmeid">
         <div class="container">
           <div class="aboutme">
-          <h2 class="aboutme__header section_header">About me</h2>
+            <h2 class="aboutme__header section_header">About me</h2>
             <div class="aboutme__wholetext">
-             <p class="abutme__text">
-              Hi, I'm Denis - UX/UI designer from Minsk.<br>
-              I'm&nbsp;interested&nbsp;in&nbsp;design and everything connected
-              with it.
-             </p>
+              <p class="abutme__text">
+                Hi, I'm Denis - UX/UI designer from Minsk.<br />
+                I'm&nbsp;interested&nbsp;in&nbsp;design and everything connected
+                with it.
+              </p>
               <p class="abutme__text">
                 I'm&nbsp;studying&nbsp;at&nbsp;courses&nbsp;"Web&nbsp;and mobile
                 design interfaces" in&nbsp;IT-&nbsp;Academy.
               </p>
-             <p class="abutme__text">
-            Ready to implement excellent projects <br />with wonderful people.
-            </p>
+              <p class="abutme__text">
+                Ready to implement excellent projects <br />with wonderful
+                people.
+              </p>
+            </div>
           </div>
-        </div>
         </div>
       </section>
 
       <!--section item-->
-      <section id="skillsid">
+      <section class="skills" id="skillsid">
         <div class="container">
-          <div class="skills">
-            <h2 class="skills__header section_header" >Skills</h2>
-            <p class="skills__text">I work in such programs as</p>
-            <div class="skills__progs">
-          <!--item-->
-           <div class="skills__item item">
-             <img class="item__icon" src="./image/Ps_black.svg" alt="" />
-             <p class="item__name">Adobe Photoshop</p>
-             <div class="item__rate">
-              <img class="item__star" src="./image/blackstar.svg" alt="" />
-              <img class="item__star" src="./image/blackstar.svg" alt="" />
-              <img class="item__star" src="./image/blackstar.svg" alt="" />
-              <img class="item__star" src="./image/blackstar.svg" alt="" />
-              <img class="item__star" src="./image/greystar.svg" alt="" />
-             </div>
+          <!-- <div class="skills"> -->
+          <h2 class="skills__header section_header">Skills</h2>
+          <p class="skills__text">I work in such programs as</p>
+          <div class="skills__progs">
+            <!--item Ps-->
+            <div class="skills__item item">
+              <img class="item__icon" src="./image/Ps_black.svg" alt="" />
+              <p class="item__name">Adobe Photoshop</p>
+              <div class="item__rate">
+                <img class="item__star" src="./image/blackstar.svg" alt="" />
+                <img class="item__star" src="./image/blackstar.svg" alt="" />
+                <img class="item__star" src="./image/blackstar.svg" alt="" />
+                <img class="item__star" src="./image/blackstar.svg" alt="" />
+                <img class="item__star" src="./image/greystar.svg" alt="" />
+              </div>
             </div>
-          <div class="skills__item item">
-            <img class="item__icon" src="./image/Ai_black.svg" alt="" />
-            <p class="item__name">Adobe Illustrator</p>
-            <div class="item__rate">
-              <img class="item__star" src="./image/blackstar.svg" alt="" />
-              <img class="item__star" src="./image/blackstar.svg" alt="" />
-              <img class="item__star" src="./image/blackstar.svg" alt="" />
-              <img class="item__star" src="./image/greystar.svg" alt="" />
-              <img class="item__star" src="./image/greystar.svg" alt="" />
+            <!--item Ai-->
+            <div class="skills__item item">
+              <img class="item__icon" src="./image/Ai_black.svg" alt="" />
+              <p class="item__name">Adobe Illustrator</p>
+              <div class="item__rate">
+                <img class="item__star" src="./image/blackstar.svg" alt="" />
+                <img class="item__star" src="./image/blackstar.svg" alt="" />
+                <img class="item__star" src="./image/blackstar.svg" alt="" />
+                <img class="item__star" src="./image/greystar.svg" alt="" />
+                <img class="item__star" src="./image/greystar.svg" alt="" />
+              </div>
+            </div>
+            <!--item Ae-->
+            <div class="skills__item item">
+              <img class="item__icon" src="./image/Ae_black.svg" alt="" />
+              <p class="item__name">Adobe&nbsp; After Effects</p>
+              <div class="item__rate">
+                <img class="item__star" src="./image/blackstar.svg" alt="" />
+                <img class="item__star" src="./image/blackstar.svg" alt="" />
+                <img class="item__star" src="./image/blackstar.svg" alt="" />
+                <img class="item__star" src="./image/blackstar.svg" alt="" />
+                <img class="item__star" src="./image/greystar.svg" alt="" />
+              </div>
+            </div>
+
+            <!--item Figma-->
+            <div class="skills__item item">
+              <img class="item__icon" src="./image/figma.svg" alt="" />
+              <p class="item__name">Figma</p>
+              <div class="item__rate">
+                <img class="item__star" src="./image/blackstar.svg" alt="" />
+                <img class="item__star" src="./image/blackstar.svg" alt="" />
+                <img class="item__star" src="./image/blackstar.svg" alt="" />
+                <img class="item__star" src="./image/blackstar.svg" alt="" />
+                <img class="item__star" src="./image/greystar.svg" alt="" />
+              </div>
             </div>
           </div>
-          <div class="skills__item item">
-            <img class="item__icon" src="./image/Ae_black.svg" alt="" />
-            <p class="item__name">Adobe&nbsp; After Effects</p>
-            <div class="item__rate">
-              <img class="item__star" src="./image/blackstar.svg" alt="" />
-              <img class="item__star" src="./image/blackstar.svg" alt="" />
-              <img class="item__star" src="./image/blackstar.svg" alt="" />
-              <img class="item__star" src="./image/blackstar.svg" alt="" />
-              <img class="item__star" src="./image/greystar.svg" alt="" />
-            </div>
-          </div>
-          <div class="skills__item item">
-            <img class="item__icon" src="./image/figma.svg" alt="" />
-            <p class="item__name">Figma</p>
-            <div class="item__rate">
-              <img class="item__star" src="./image/blackstar.svg" alt="" />
-              <img class="item__star" src="./image/blackstar.svg" alt="" />
-              <img class="item__star" src="./image/blackstar.svg" alt="" />
-              <img class="item__star" src="./image/blackstar.svg" alt="" />
-              <img class="item__star" src="./image/greystar.svg" alt="" />
-            </div>
-          </div>
-         </div>
-        </div>
         </div>
       </section>
 
@@ -152,83 +151,79 @@
         <div class="container">
           <h2 class="portfolio__header section_header">Portfolio</h2>
           <div class="potfolio__wrapper">
-           <picture>
-             <img
-              class="portfolio__photo1"
-              src="./image/woman1x.jpg"
-              srcset="./image/woman1x.jpg 1x, ./image/woman2x.jpg 2x"
-              alt="woman"
-             />
+            <picture>
+              <img
+                class="portfolio__photo1"
+                src="./image/woman1x.jpg"
+                srcset="./image/woman1x.jpg 1x, ./image/woman2x.jpg 2x"
+                alt="woman"
+              />
             </picture>
-           <a class="portfolio__link" href="#">Online fashion store - Homepage</a>
+            <a class="portfolio__link" href="#"
+              >Online fashion store - Homepage</a
+            >
           </div>
           <div class="potfolio__wrapper">
-           <picture>
+            <picture>
               <img
-              class="portfolio__photo1"
-              src="./image/reebok1x.jpg"
-              srcset="./image/reebok1x.jpg 1x, ./image/reebok2x.jpg 2x"
-              alt="reebok"
+                class="portfolio__photo1"
+                src="./image/reebok1x.jpg"
+                srcset="./image/reebok1x.jpg 1x, ./image/reebok2x.jpg 2x"
+                alt="reebok"
               />
-           </picture>
-           <a class="portfolio__link" href="">Reebok Store - Concept</a>
+            </picture>
+            <a class="portfolio__link" href="">Reebok Store - Concept</a>
           </div>
           <div>
             <picture>
               <img
-              class="portfolio__photo1"
-              src="./image/braun1x.jpg"
-              srcset="./image/braun1x.jpg 1x, ./image/braun2x.jpg 2x"
-              alt="braun"
+                class="portfolio__photo1"
+                src="./image/braun1x.jpg"
+                srcset="./image/braun1x.jpg 1x, ./image/braun2x.jpg 2x"
+                alt="braun"
               />
             </picture>
             <a class="portfolio__link" href="">Braun Landing Page - Concept</a>
           </div>
         </div>
       </section>
-      </main>
+    </main>
 
-      <!-- part footer -->
-      <footer id="contactsid">
-        <div class="container">
-          <div class="footer__wrapper">
-          <h3 class="footer__header section_header">
-            Contacts
-          </h3>
-          <div class="footer__textlink">
-            <p class="footer__text">
-              Want to know more or just chat? You are welcome!
-            </p>
-          </div>
-          <div class="footer__link">
-            <a class="footer__link__button" href="mailto:vlad@webref.ru"
-              >Send message</a
-            >
-          </div>
-          <div class="footer__social">
-            <a href="https://ru.linkedin.com/"
-              ><img src="./image/linkedin.svg" alt="in"
-            /></a>
-            <a href="https://www.instagram.com/"
-              ><img src="./image/insta.svg" alt="instagram"
-            /></a>
-            <a href="https://www.behance.net/">
-              <img src="./image/behance.svg" alt="behance"
-            /></a>
-            <a href="https://dribbble.com/"
-              ><img src="./image/dribble.svg" alt="dribbble"
-            /></a>
-          </div>
-          <div class="footer__capture">
-            <p class="footer__capture__text">
-              Like me on <br />
-              LinkedIn, Instagram, Behance, Dribble
-            </p>
-          </div>
+    <!-- part footer -->
+    <footer class="footer__wrapper" id="contactsid">
+      <div class="container">
+        <h3 class="footer__header section_header">Contacts</h3>
+        <p class="footer__text">
+          Want to know more or just chat? You are welcome!
+        </p>
+        <div class="footer__link">
+          <a class="footer__link__button" href="mailto:vlad@webref.ru"
+            >Send message</a
+          >
         </div>
+        <div class="footer__social">
+          <a href="https://ru.linkedin.com/"
+            ><img src="./image/linkedin.svg" alt="in"
+          /></a>
+          <a href="https://www.instagram.com/"
+            ><img src="./image/insta.svg" alt="instagram"
+          /></a>
+          <a href="https://www.behance.net/">
+            <img src="./image/behance.svg" alt="behance"
+          /></a>
+          <a href="https://dribbble.com/"
+            ><img src="./image/dribble.svg" alt="dribbble"
+          /></a>
         </div>
-      </footer>
-    
+        <div class="footer__capture">
+          <p class="footer__capture__text">
+            Like me on <br />
+            LinkedIn, Instagram, Behance, Dribble
+          </p>
+        </div>
+      </div>
+    </footer>
+
     <script src="./script.js"></script>
   </body>
 </html>
